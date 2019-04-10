@@ -21,6 +21,6 @@ text = "#bonjour_monde Aimez-vous le citron?"
         twitter_journalists.sample(5).each do |journalist|
           login_twitter.update(journalist + ' ' + text)
         end
-    end
+     end
 
      random_five_journalists(twitter_journalists, text)
